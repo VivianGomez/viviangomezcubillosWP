@@ -1,11 +1,46 @@
 .App {
   text-align: center;
+  background-color: white;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
+}
+
+.child-div {
+  position:absolute;
+  left:0;
+  right:0;
+}
+
+.parent {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.child-element-right {
+  position: absolute;
+  width: 100vw;
+  left: calc(-50vw + 105%);
+  height: 50px;
+  vertical-align: middle;
+  padding: 16%;
+  margin-top: 10%;
+}
+
+.child-element-left {
+  position: absolute;
+  width: 100vw;
+  left: calc(-50vw + 51%);
+  height: 50px;
+  vertical-align: middle;
+  padding: 16%;
+  margin-top: 10%;
 }
 
 .App-header {
