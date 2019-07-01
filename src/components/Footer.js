@@ -13,7 +13,7 @@ class Footer extends React.Component {
          <footer className="footer-distributed">
            <div className="footer-right">
             <p className="footer-company-about">
-                <span>About me</span>
+               <span><i className="fas fa-smile text-warning"></i> About me </span>
                 I'm Vivian Gomez, an student of System and Computing Engineering at Universidad de los Andes. Additionally, I study an specialization in Visual Computing, which is one of my favorites fields in my major.
                 I am a creative person, leader, well work in teams and I ever want to learn all that I can. Currently, I'm very interested in web development, data visualization, video games development and the creation of software to solution problems and help the people.            
                 </p>
@@ -28,7 +28,7 @@ class Footer extends React.Component {
             </div>
 
             <div className="footer-center verticalAling">
-                <h3 align="center"><img src={require('.././images/vgc.png')} className="responsive"/>Vivian Gomez</h3>
+                <h3 align="center"><img src={require('.././images/vgc.png')} className="responsive"/>Vivian Gómez</h3>
                 <h6 align="center" className="footer-company-name">Copyright &copy; 2019</h6>
                  <center>
                     <div align="center">                      
@@ -40,7 +40,7 @@ class Footer extends React.Component {
             <div className="footer-right">
 
             <p className="footer-company-about">
-                <span>My skills</span>
+                <span><i className="fas fa-star text-warning"></i> My skills </span>
                 During my major, I have learned a lot of technologies to develop applications in different environments. 
                 I learned about web and mobile technologies such as HTML, CSS, JavaScript, Android Java and Kotlin. 
                 Additionaly, I have passion for the design, User Interface (UI) and User Experience (UX), for this, 
