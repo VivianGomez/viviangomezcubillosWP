@@ -42,7 +42,7 @@ class Footer extends React.Component {
             <p className="footer-company-about">
                 <span>My skills</span>
                 During my major, I have learned a lot of technologies to develop applications in different environments. 
-                I learn about web and mobile technologies such as HTML, CSS, JavaScript, Android Java and Kotlin. 
+                I learned about web and mobile technologies such as HTML, CSS, JavaScript, Android Java and Kotlin. 
                 Additionaly, I have passion for the design, User Interface (UI) and User Experience (UX), for this, 
                 I have learned Corel Painter Essentials, Photoshop and Cinema 4D, in which I make designs, icons and 3D models.
             </p>
@@ -55,7 +55,7 @@ class Footer extends React.Component {
                 <a href="#"><i className="fab fa-css3-alt"></i></a>
                 <a href="#"><i className="fab fa-js-square"></i></a>
                 <a href="#"><i className="fab fa-android"></i></a>
-                <a href="#"><i className="fa fa-github"></i></a>
+                <a href="#"><i className="fab fa-github"></i></a>
                 <a href="#"><img src={require('.././images/c#30x30.png')} className="responsive"/></a>
                 <a href="#"><img src={require('.././images/c4d30x30.png')} className="responsive"/></a>
             </div>

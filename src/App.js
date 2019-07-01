@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="contact">
       <div className="container-fluid">
       <div className="row">
         <div className="col-12 parent">

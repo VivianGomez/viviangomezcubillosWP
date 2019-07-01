@@ -4,7 +4,10 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
+import Projects from './components/Projects';
+
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
@@ -13,6 +16,8 @@ ReactDOM.render(
           <Navbar/>
           <Route exact path='/' component={App} />
           <Route path='/myPortFolio' component={Portfolio} />
+          <Route path='/contact' component={Footer} />
+          <Route path='/myProjects' component={Projects} />
         </div>
     </Router>,
     document.getElementById('root')
