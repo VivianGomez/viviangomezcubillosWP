@@ -28,7 +28,7 @@ class Footer extends React.Component {
             </div>
 
             <div className="footer-center verticalAling">
-                <h3 align="center">Vivian Gomez</h3>
+                <h3 align="center"><img src={require('.././images/vgc.png')} className="responsive"/>Vivian Gomez</h3>
                 <h6 align="center" className="footer-company-name">Copyright &copy; 2019</h6>
                  <center>
                     <div align="center">                      
