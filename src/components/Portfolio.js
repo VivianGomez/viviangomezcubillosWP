@@ -50,6 +50,9 @@ class Portfolio extends React.Component {
                   <div className="col-sm-6 col-md-4">
                     <ModalViewer titulo="Tooney dooney animations" contenido="Microanimations and simple modeling of three cartoon characters." portada={this.state.rutas[1]} behance="https://www.behance.net/gallery/80471221/Tooney-dooney-(microanimations)" imagenes={this.state.albumActual} idAlbum="72157709347086486"/>                                         
                   </div>
+                  <div className="col-sm-6 col-md-4">
+                    <ModalViewer titulo="BHelp" contenido="UI mobile application: BHelp, designed to help people during the breeding of childs." portada={this.state.rutas[4]} behance="https://www.behance.net/gallery/82693983/BHelp" imagenes={this.state.albumActual} idAlbum="72157709548160271"/>                                         
+                  </div>
               </div>
             </div>
           </div>        

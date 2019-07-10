@@ -20,8 +20,8 @@ class Footer extends React.Component {
 
             <div className="footer-icons">
                 <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/viviangomezcc/"><i className="fab fa-instagram"></i></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/VivianGomez"><i className="fab fa-linkedin"></i></a>
-                <a target="_blank" rel="noopener noreferrer" href="https://github.com/VivianGomez?tab=repositories"><i className="fab fa-github"></i></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/vivian-g%C3%B3mez-cubillos-79499b18a/"><i className="fab fa-linkedin"></i></a>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/VivianGomez"><i className="fab fa-github"></i></a>
                 <a target="_blank" rel="noopener noreferrer" href="https://www.behance.net/vivi_15gmz3b9a"><i className="fab fa-behance"></i></a>
             </div>
 
