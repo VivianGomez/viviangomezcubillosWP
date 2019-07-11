@@ -74,6 +74,18 @@ class Projects extends React.Component {
                      </div>
                     </div>
                   </div>
+                  <div className="col-sm-6 col-md-4">
+                  <div className="thumbnail"> 
+                    <img width="43%" src={require('.././images/dblogo.png')} className="responsive"/>
+                     <div className="caption">
+                        <h5><b>BHelp-Dashboard</b></h5>
+                        <h6>Dashboard created to understand the users behavior in the mobile application BHelp. For this, the web app consumes the database and analytics of the mobile app. After, these data is showed in different interactive graphs.</h6>
+                          <p>
+                          See more <a target="_blank" rel="noopener noreferrer" href="http://bhelpdb.herokuapp.com/"><i className="fas fa-globe"></i></a> - <a target="_blank" rel="noopener noreferrer" href="https://github.com/VivianGomez/bhelp-dashboard"><i className="fab fa-github text-dark"></i></a>
+                          </p>
+                     </div>
+                    </div>
+                  </div>
               </div>
             </div>
           </div>          
