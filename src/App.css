@@ -45,6 +45,7 @@
   vertical-align: middle;
   padding: 16%;
   margin-top: 10%;
+  text-decoration: none;
 }
 
 .child-element-left {
@@ -55,6 +56,36 @@
   vertical-align: middle;
   padding: 16%;
   margin-top: 10%;
+  text-decoration: none;
+}
+
+
+.pulse{
+	width:  20px;
+	height: 20px;
+	background:#0000;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 1.4em;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	animation: animate 3s linear infinite;
+}
+
+@keyframes animate{
+	0%{
+		box-shadow: 0 0 0 0 rgba(20, 20, 20, 0.966)
+	}
+	40%{
+		box-shadow: 0 0 0 20px rgba(255, 109, 74, 0)
+	}
+	80%{
+		box-shadow: 0 0 0 20px rgba(255, 109, 74, 0)
+	}
+	100%{
+		box-shadow: 0 0 0 0 rgba(255, 109, 74, 0)
+	}
 }
 
 .App-header {

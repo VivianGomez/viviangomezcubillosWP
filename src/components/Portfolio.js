@@ -53,6 +53,9 @@ class Portfolio extends React.Component {
                   <div className="col-sm-6 col-md-4">
                     <ModalViewer titulo="BHelp" contenido="UI mobile application: BHelp, designed to help people during the breeding of childs." portada={this.state.rutas[4]} behance="https://www.behance.net/gallery/82693983/BHelp" imagenes={this.state.albumActual} idAlbum="72157709548160271"/>                                         
                   </div>
+                  <div className="col-sm-6 col-md-4">
+                    <ModalViewer titulo="BHelp-Dashboard" contenido="Dashboard created to understand the users behavior in the mobile application BHelp." portada={this.state.rutas[5]} behance="https://www.behance.net/gallery/82779325/BHelp-Dashboard?" imagenes={this.state.albumActual} idAlbum="72157709584230627"/>                                         
+                  </div>
               </div>
             </div>
           </div>        

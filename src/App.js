@@ -12,10 +12,14 @@ function App() {
         <img width="80%" src={require('./images/fondo.png')} className="responsive"/>  
       </div>  
         <div className="col-6 child-element-left">
-        <Link to={`/myPortFolio`}> <i class="fas  fa-angle-double-left fa-2x text-dark"></i></Link>
+         <Link to={`/myPortFolio`}>
+         <i class="fas fa-chevron-circle-left text-dark pulse"></i>
+         </Link>
         </div>
         <div className="col-6  child-element-right">
-        <Link to={`/myProjects`}> <i class="fas fa-angle-double-right fa-2x text-dark"></i></Link>
+        <Link  to={`/myProjects`}>
+        <i class="fas fa-chevron-circle-right text-dark pulse"></i>
+         </Link>
         </div>
       </div>
       </div>
