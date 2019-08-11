@@ -25,11 +25,14 @@ class Navbar extends React.Component {
                         <Link className="nav-link"to={`/myProjects`}>Projects</Link>
                         </li>
                         <li className="nav-item">
-                        <Link className="nav-link" to={`/contact`}> Contact</Link>
+                        <Link className="nav-link" to={`/vclearnprocess`}> Visual Computing </Link>
                         </li>
                         <li className="nav-item">
-                        <a className="nav-link" href="#resume">Resume</a>
+                        <Link className="nav-link" to={`/contact`}> Contact</Link>
                         </li>
+{/*                         <li className="nav-item">
+                        <a className="nav-link" href="#resume">Resume</a>
+                        </li> */}
                     </ul>
                 </div>
             </nav>

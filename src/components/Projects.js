@@ -57,7 +57,7 @@ class Projects extends React.Component {
                         <h5><b>SII-Cuidamos</b></h5>
                         <h6>This application exposes public investment projects in Colombia in order that citizens can make a correct follow-up to the development and implementation of them.</h6>
                           <p>
-                          See more <a target="_blank" rel="noopener noreferrer" href="http://vpp.ineffableinventions.com.co/proyectos"><i className="fas fa-globe"></i></a> - <a target="_blank" rel="noopener noreferrer" href="https://github.com/gabrielpintop/veeduria-proyectos-publicos"><i className="fab fa-github text-dark"></i></a>
+                          See more <a target="_blank" rel="noopener noreferrer" href="http://www.siicuidamos.org/"><i className="fas fa-globe"></i></a> - <a target="_blank" rel="noopener noreferrer" href="https://github.com/gabrielpintop/veeduria-proyectos-publicos"><i className="fab fa-github text-dark"></i></a>
                           </p>
                      </div>
                     </div>

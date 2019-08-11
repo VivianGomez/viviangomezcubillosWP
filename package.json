@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
+    "react-codepen-embed": "^1.0.1",
     "react-dom": "^16.8.6",
     "react-image-lightbox": "^5.1.0",
     "react-images": "^1.0.0",

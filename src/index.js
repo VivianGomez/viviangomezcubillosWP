@@ -7,6 +7,8 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import Projects from './components/Projects';
+import VSLearnProcess from './components/VSLearnProcess';
+
 
 import * as serviceWorker from './serviceWorker';
 
@@ -18,6 +20,7 @@ ReactDOM.render(
           <Route path='/myPortFolio' component={Portfolio} />
           <Route path='/contact' component={Footer} />
           <Route path='/myProjects' component={Projects} />
+          <Route path='/vclearnprocess' component={VSLearnProcess} />
         </div>
     </Router>,
     document.getElementById('root')
