@@ -51,6 +51,21 @@ class VSLearnProcess extends React.Component {
             preview="false"
             />
             </div>
+            <div className="tz-gallery">
+          <div className="caption">
+            <h5><b>Week 2: Pitcher/Glass - square base, circular mouth -</b></h5>
+            <h6>Second experience with WebGL, practice of geometry concepts </h6>
+            </div>
+            <Codepen 
+            title="Week 3: ''Movable helicopter''"
+            hash="QWLMYmr" 
+            user="viviangomez" 
+            height="500px"
+            defaultTab="js,result"
+            loader={() => <div>Loading...</div>}
+            preview="false"
+            />
+            </div>
           </div>          
         </div>
       </div>
