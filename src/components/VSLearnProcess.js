@@ -51,7 +51,7 @@ class VSLearnProcess extends React.Component {
             preview="false"
             />
             </div>
-            <div className="tz-gallery">
+          <div className="tz-gallery">
           <div className="caption">
             <h5><b>Week 3: "Movable helicopter"</b></h5>
             <h6>Application of transformations: rotation, scale, translation </h6>
@@ -65,8 +65,23 @@ class VSLearnProcess extends React.Component {
             loader={() => <div>Loading...</div>}
             preview="false"
             />
+          </div>
+          <div className="tz-gallery">
+          <div className="caption">
+            <h5><b>Week 4: "Movable helicopter around an object"</b></h5>
+            <h6>WebGL Scene graph and rotation </h6>
             </div>
-          </div>          
+            <Codepen 
+            title="Semana 4: Move around an object"
+            hash="aboqGGm" 
+            user="viviangomez" 
+            height="500px"
+            defaultTab="js,result"
+            loader={() => <div>Loading...</div>}
+            preview="false"
+            />
+          </div>
+         </div>          
         </div>
       </div>
       
