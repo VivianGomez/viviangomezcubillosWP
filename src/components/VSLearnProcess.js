@@ -111,7 +111,6 @@ class VSLearnProcess extends React.Component {
             preview="false"
             />
           </div>
-         </div>    
          </div>          
         </div>
       </div>
