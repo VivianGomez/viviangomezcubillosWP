@@ -96,6 +96,22 @@ class VSLearnProcess extends React.Component {
             preview="false"
             />
           </div>
+          <div className="tz-gallery">
+          <div className="caption">
+            <h5><b>Week 8: Textures - Ice cream flavors</b></h5>
+            <h6>Change the textures of primitives </h6>
+            </div>
+            <Codepen 
+            title="Week 8: Textures - Ice cream flavors"
+            hash="ExxKKvy" 
+            user="viviangomez" 
+            height="500px"
+            defaultTab="js,result"
+            loader={() => <div>Loading...</div>}
+            preview="false"
+            />
+          </div>
+         </div>    
          </div>          
         </div>
       </div>
