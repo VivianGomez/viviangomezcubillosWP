@@ -111,6 +111,23 @@ class VSLearnProcess extends React.Component {
             preview="false"
             />
           </div>
+          <div className="tz-gallery">
+          <div className="caption">
+            <h5><b>Final project: Dynamic skybox, and change of textures at runtime</b></h5>
+            <h6>In this project, I work with four shaders in gsls, two vertex and two fragment. The first one, for the environments figures, as the planets. The second one, for the skyboxes.  </h6>
+            <h6><b>Interactivity:</b> You can change the skybox and the planet on the visualization, only selected it with the picture buttons</h6>
+
+            </div>
+            <Codepen 
+            title="Final project: Dynamic skybox, and change of textures at runtime "
+            hash="LYEGYPE" 
+            user="viviangomez" 
+            height="500px"
+            defaultTab="js,result"
+            loader={() => <div>Loading...</div>}
+            preview="false"
+            />
+          </div>
          </div>          
         </div>
       </div>
