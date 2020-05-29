@@ -40,18 +40,6 @@ class Projects extends React.Component {
               <div className="row">
                   <div className="col-sm-6 col-md-4">
                   <div className="thumbnail"> 
-                    <img width="50%" src={require('.././images/LogoFoohealli.png')} className="responsive"/>
-                    <div className="caption">
-                      <h5><b>Foohealli</b></h5>
-                      <h6>Foohealli is an application that seeks to improve communication between doctors, nutritionists and patients in order to achieve successful nutritional treatments.</h6>
-                        <p>
-                        See more <a target="_blank" rel="noopener noreferrer" href="https://foohealli-app.herokuapp.com/"><i className="fas fa-globe"></i></a> - <a target="_blank" rel="noopener noreferrer" href="https://github.com/VivianGomez/canal-nutricion"><i className="fab fa-github text-dark"></i></a>
-                        </p>
-                    </div>
-                    </div>
-                   </div>
-                  <div className="col-sm-6 col-md-4">
-                  <div className="thumbnail"> 
                     <img width="50%" src={require('.././images/LogoVPP.png')} className="responsive"/>
                      <div className="caption">
                         <h5><b>SII-Cuidamos</b></h5>
@@ -60,6 +48,18 @@ class Projects extends React.Component {
                           See more <a target="_blank" rel="noopener noreferrer" href="http://www.siicuidamos.org/"><i className="fas fa-globe"></i></a> - <a target="_blank" rel="noopener noreferrer" href="https://github.com/gabrielpintop/veeduria-proyectos-publicos"><i className="fab fa-github text-dark"></i></a>
                           </p>
                      </div>
+                    </div>
+                   </div>
+                   <div className="col-sm-6 col-md-4">
+                  <div className="thumbnail"> 
+                    <img width="50%" src={require('.././images/LogoFoohealli.png')} className="responsive"/>
+                    <div className="caption">
+                      <h5><b>Foohealli</b></h5>
+                      <h6>Foohealli is an application that seeks to improve communication between doctors, nutritionists and patients in order to achieve successful nutritional treatments.</h6>
+                        <p>
+                        See more <a target="_blank" rel="noopener noreferrer" href="https://foohealli-app.herokuapp.com/"><i className="fas fa-globe"></i></a> - <a target="_blank" rel="noopener noreferrer" href="https://github.com/VivianGomez/canal-nutricion"><i className="fab fa-github text-dark"></i></a>
+                        </p>
+                    </div>
                     </div>
                    </div>
                   <div className="col-sm-6 col-md-4">
@@ -86,6 +86,20 @@ class Projects extends React.Component {
                      </div>
                     </div>
                   </div>
+                  <div className="col-sm-6 col-md-4">
+                  <div className="thumbnail"> 
+                    <img width="50%" src={require('.././images/Logo3G.png')} className="responsive"/>
+                    <div className="caption">
+                      <h5><b>Tres Gatos Cervecería</b></h5>
+                      <h6>Web site to show and sell the products of Tres Gatos Cervecería Artesanal.</h6>
+                      <br></br>
+                      <br></br>
+                        <p>
+                        See more <a target="_blank" rel="noopener noreferrer" href="https://tresgatoscerveceria.com/"><i className="fas fa-globe"></i></a> - <a target="_blank" rel="noopener noreferrer" href="https://github.com/VivianGomez/canal-nutricion"><i className="fab fa-github text-dark"></i></a>
+                        </p>
+                    </div>
+                    </div>
+                   </div>
               </div>
             </div>
           </div>          
